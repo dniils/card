@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1,
+    user-scalable=no"
+    />
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script|Roboto|Montserrat:300i,400,700&amp;subset=cyrillic-ext"
+    />
+
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/79c09c4ba5.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- tab icon -->
+    <link rel="icon" href="https://via.placeholder.com/32/333" />
+
+    <title>Student Card</title>
+  </head>
+
+  <body>
+    <!-- Добавить навигацию. По ссылкам идет скролл по странице к нужному блоку
+      
+      По клику на Student Card, блок переворачивается (анимация),
+      на обороте -- навигационные ссылки
+
+    <header class="header">
+      <div class="nav">
+        <a href="#" class="nav_link">Main</a>
+          <a href="#" class="nav_link">Goals</a>
+          <a href="#" class="nav_link">Schedule</a>
+          <a href="#" class="nav_link">Courses</a>
+          <a href="#" class="nav_link">Projects</a>
+          <a href="#" class="nav_link">Contacts</a>
+      </div>
+    </header> -->
+
+    <div class="container">
+      <div class="h1">Student Card</div>
+      <div class="button_color"></div>
+      <div class="button_color_2"></div>
+    </div>
+
+    <!-- INFO -->
+    <div class="container">
+      <div class="info">
+        <div class="info_item">
+          <img
+            class="info_img"
+            src="https://via.placeholder.com/140x180/333"
+            alt="photo"
+          />
+        </div>
+
+        <!-- картинка поверх -->
+        <div class="info_img_top_red">
+          <img src="assets/images/top/red.png" alt="image" />
+        </div>
+
+        <div class="info_item">
+          <div class="box">
+            <div class="box_head">Name, Surname</div>
+            <div class="box_text">Name Surname</div>
+          </div>
+
+          <div class="box">
+            <div class="box_head">Age</div>
+            <div class="box_text">25</div>
+          </div>
+
+          <div class="box">
+            <div class="box_head">Experience</div>
+            <div class="box_text">1M years</div>
+          </div>
+
+          <div class="box">
+            <div class="box_head">About</div>
+            <div class="box_text box_text--just">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GOALS -->
+    <div class="container">
+      <div class="goals">
+        <div class="h2">My educational goals</div>
+        <ul class="list">
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Laboris nisi ut aliquip ex ea commodo</li>
+          <li>
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
+          </li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Laboris nisi ut aliquip ex ea commodo</li>
+          <li>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore
+          </li>
+          <li>Lorem ipsum dolor sit amet</li>
+          <li>Ut enim ad minim veniam, quis nostrud exercitation ullamco</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- TIME -->
+    <div class="container">
+      <div class="h2">How much time I can study</div>
+      <table class="table1">
+        <tr>
+          <td>Monday</td>
+          <td>4-5 hrs</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>4-5 hrs</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>4-5 hrs</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>4-5 hrs</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>4-5 hrs</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>2-3 hrs</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>2-3 hrs</td>
+        </tr>
+      </table>
+
+      <!-- картинка поверх -->
+      <div class="info_img_top_green">
+        <img src="assets/images/top/green.png" alt="image" />
+      </div>
+    </div>
+
+    <!-- Courses -->
+
+    <div class="container container--col">
+      <div class="h2">Accomplished Courses</div>
+
+      <table class="table2">
+        <tr>
+          <th>Course</th>
+          <th>Author</th>
+          <th>Rate</th>
+        </tr>
+        <tr>
+          <td>Course Name 1</td>
+          <td>Author 1</td>
+          <td>9/10</td>
+        </tr>
+        <tr>
+          <td>Course Name 2</td>
+          <td>Author 2</td>
+          <td>10/10</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Projects -->
+    <div class="container">
+      <div class="h2">Projects</div>
+
+      <div id="gallery">
+        <div class="gallery_photos">
+          <img src="/assets/images/gallery/1.png" alt="" class="active" />
+          <img src="/assets/images/gallery/2.png" alt="" />
+          <img src="/assets/images/gallery/3.png" alt="" />
+          <img src="/assets/images/gallery/4.png" alt="" />
+        </div>
+
+        <div class="buttons">
+          <img
+            class="buttonPrev"
+            src="/assets/images/buttons/buttonPrev.png"
+            alt="Previous"
+          />
+          <img
+            class="buttonNext"
+            src="/assets/images/buttons/buttonNext.png"
+            alt="Previous"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Contacts -->
+    <div class="container">
+      <div class="h2">Contacts</div>
+
+      <div class="contacts">
+        <div class="contacts_item">
+          <a
+            class="contacts_link"
+            href="https://www.telegram.org"
+            target="_blank"
+          >
+            <i class="fa-brands fa-telegram"></i>
+          </a>
+
+          <div class="contacts_text">Telegram</div>
+        </div>
+
+        <div class="contacts_item">
+          <a
+            class="contacts_link"
+            href="https://www.instagram.com"
+            target="_blank"
+          >
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+
+          <div class="contacts_text">Instagram</div>
+        </div>
+
+        <div class="contacts_item">
+          <a class="contacts_link" href="https://www.vk.com" target="_blank">
+            <i class="fa-brands fa-vk"></i>
+          </a>
+
+          <div class="contacts_text">VK</div>
+        </div>
+
+        <div class="contacts_item">
+          <a
+            class="contacts_link"
+            href="https://www.github.com"
+            target="_blank"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <div class="contacts_text">GitHub</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/assets/js/index.js"></script>
+    <script src="/assets/js/changeColor.js"></script>
+  </body>
+</html>
