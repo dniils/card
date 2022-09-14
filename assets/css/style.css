@@ -44,8 +44,8 @@ ul {
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 
-/* Change bg color button*/
-.button_color {
+/* Change color buttons*/
+.button-color-content {
   position: absolute;
   right: 15px;
   top: 22.594px;
@@ -61,12 +61,12 @@ ul {
   transition: scale 0.2s ease-in-out;
 }
 
-.button_color:hover {
+.button-color-content:hover {
   cursor: pointer;
   scale: 1.2;
 }
 
-.button_color_2 {
+.button-color-bg {
   position: absolute;
   right: 55px;
   top: 22.594px;
@@ -82,7 +82,7 @@ ul {
   transition: scale 0.2s ease-in-out;
 }
 
-.button_color_2:hover {
+.button-color-bg:hover {
   cursor: pointer;
   scale: 1.2;
 }
@@ -310,6 +310,14 @@ ul {
 }
 
 @media (max-width: 630px) {
+  .button-color-content {
+    top: 13.1955px;
+  }
+
+  .button-color-bg {
+    top: 13.1955px;
+  }
+
   body {
     font-size: 16px;
   }
@@ -398,6 +406,14 @@ ul {
 }
 
 @media (max-width: 450px) {
+  .button-color-content {
+    top: 6px;
+  }
+
+  .button-color-bg {
+    top: 6px;
+  }
+
   body {
     font-size: 12px;
   }

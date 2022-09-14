@@ -1,5 +1,5 @@
-let buttonColor = document.querySelector('.button_color');
-let buttonColor2 = document.querySelector('.button_color_2');
+let buttonColor = document.querySelector('.button-color-content');
+let buttonColor2 = document.querySelector('.button-color-bg');
 let containers = document.querySelectorAll('.container');
 let htmlBody = document.querySelector('body');
 // let pageColor = htmlBody.style.backgroundColor;
